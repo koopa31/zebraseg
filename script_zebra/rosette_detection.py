@@ -39,8 +39,6 @@ def keep_largest_component(binary_image):
 
     return largest_component
 
-# Load the 3D image using CuCIM
-#image = imread("/home/clement/Images/retraining_omp_48hpf/rollingballed.tif")
 
 parser = argparse.ArgumentParser(description='Parameters to set to segment zebrafish 3D olfactive epithelium.')
 parser.add_argument('-p', type=str, help='Folder path containing the images to segment')
